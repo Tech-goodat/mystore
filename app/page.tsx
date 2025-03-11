@@ -16,7 +16,7 @@ const page = () => {
           <h1 className='flex text-2xl font-bold '>The best way</h1>
         </div>
         <div className='mt-4'>
-          <p className='flex w-[300px] text-sm '>Awesome, we've created the perfect place for you to store all your documents.</p>
+          <p className='flex w-[300px] text-sm '>Awesome, we have created the perfect place for you to store all your documents.</p>
         </div>
         <div className='mt-5'>
           <Image src='/files.png' alt='files logo' width={250} height={250}/>
@@ -30,7 +30,7 @@ const page = () => {
           <input type='text' name='email' placeholder='Enter your email ... ' className='text-[10px] p-4 w-[400px] rounded-md outline-none shadow-md' />
           <button className='flex cursor-pointer text-[10px] p-4 rounded-full w-[400px] items-center justify-center text-white bg-[#FA7275] mt-6 shadow-md'>Login</button>
         </form>
-        <div className='mt-4'><p className='text-[10px]'>Don't have an account? <Link className='text-[#FA7275]' href='/signup'>Create Account</Link></p></div>
+        <div className='mt-4'><p className='text-[10px]'>Dont have an account? <Link className='text-[#FA7275]' href='/signup'>Create Account</Link></p></div>
       </div>
       
     </div>

@@ -17,7 +17,7 @@ const SignUp = () => {
               <h1 className='flex text-2xl font-bold '>The best way</h1>
             </div>
             <div className='mt-4'>
-              <p className='flex w-[300px] text-sm '>Awesome, we've created the perfect place for you to store all your documents.</p>
+              <p className='flex w-[300px] text-sm '>Awesome, we have created the perfect place for you to store all your documents.</p>
             </div>
             <div className='mt-5'>
               <Image src='/files.png' alt='files logo' width={250} height={250}/>
