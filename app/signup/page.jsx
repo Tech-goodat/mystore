@@ -28,9 +28,9 @@ const SignUp = () => {
               <h1 className='font-bold text-3xl text-[#131524] '>Create Account</h1>
             </div>
             <form className='w-full p-1 md:w-[400px] md:mt-7'>
-            <input type='text' name='name' placeholder='Enter your full name ... ' className='text-[10px] p-4  w-[400px] md:w-[400px] rounded-md outline-none shadow-sm' />
-              <input type='text' name='email' placeholder='Enter your email ... ' className='text-[10px] mt-7 p-4 w-[400px] md:w-[400px] rounded-md outline-none shadow-sm' />
-              <button className='flex cursor-pointer text-[10px] p-4 rounded-full w-[400px] md:w-[400px] items-center justify-center text-white bg-[#FA7275] mt-6 shadow-sm'>Create Account</button>
+            <input type='text' name='name' placeholder='Enter your full name ... ' className='text-[10px] p-4  w-[360px] md:w-[400px] rounded-md outline-none shadow-sm' />
+              <input type='text' name='email' placeholder='Enter your email ... ' className='text-[10px] mt-7 p-4 w-[360px] md:w-[400px] rounded-md outline-none shadow-sm' />
+              <button className='flex cursor-pointer text-[10px] p-4 rounded-full w-[360px] md:w-[400px] items-center justify-center text-white bg-[#FA7275] mt-6 shadow-sm'>Create Account</button>
             </form>
             <div className='mt-4'><p className='text-[10px]'>Already have an account? <Link className='text-[#FA7275]' href='/'>Sign in</Link></p></div>
           </div>
