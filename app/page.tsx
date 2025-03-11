@@ -31,7 +31,7 @@ const SignUp = () => {
               <input type='text' name='email' placeholder='Enter your email ... ' className='text-[10px] mt-7 p-4 w-[350px] md:w-[400px] rounded-md outline-none shadow-sm' />
               <button className='flex cursor-pointer text-[10px] p-4 rounded-full w-[350px] md:w-[400px] items-center justify-center text-white bg-[#FA7275] mt-6 shadow-sm'>Sign in</button>
             </form>
-            <div className='mt-4'><p className='text-[10px]'>Dont have an account? <Link className='text-[#FA7275]' href='/'>Create Account</Link></p></div>
+            <div className='mt-4'><p className='text-[10px]'>Dont have an account? <Link className='text-[#FA7275]' href='/signup'>Create Account</Link></p></div>
           </div>
           
         </div>
