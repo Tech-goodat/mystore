@@ -1,15 +1,15 @@
 import React from 'react'
 import Layout from "../components/Layout";
 
-const HomePage = () => {
+const Media = () => {
   return (
     <Layout>
     <div className="w-full flex flex-col items-center h-screen">
      
-      home
+      media
     </div>
     </Layout>
   )
 }
 
-export default HomePage
+export default Media
